@@ -1,0 +1,147 @@
+/* :root {
+    --header-color: #e17055;
+} */
+
+/* Global styling for site */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family:Arial, Helvetica, sans-serif;
+    color:#82ccdd;
+    background-color:cornsilk;
+}
+
+a {
+    color: inherit;
+}
+
+/* Header styling */
+header {
+    display: flex;
+    padding: 20px 30px;
+    background-color: #2f3542;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    z-index: 999;
+}
+
+header h1 {
+    font-weight: bold;
+    font-size: 50px;
+    color: azure;
+    margin: 0;
+    text-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+header h1 a {
+    color: #2f3542;
+    background-color: #82ccdd;
+    position: absolute;
+    padding: 10px 10px 5px 100px;
+    margin-left: 0;
+}
+
+header a {
+    text-decoration: none;
+}
+
+header nav {
+    margin: 10px 0;
+}
+
+header nav ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+}
+
+header nav ul li a {
+    padding: 10px 25px;
+    font-weight: lighter;
+    font-size: 1.60vw;
+}
+
+nav ul li a::after {
+    content: '';
+    width: 0%;
+    height: 3px;
+    background: #82ccdd;
+    display: block;
+    /* margin: auto; */
+    transition: 0.5s;
+}
+
+nav ul li a:hover::after {
+    width: 105%;
+}
+
+/* header nav ul li a:hover {
+    background: #82ccdd;
+    color: #2f3542;
+    border-bottom: #82ccdd;
+    text-shadow: none;
+} */
+
+section {
+    padding: 60px;
+}
+
+/* footer styling */
+footer {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+
+}
+
+footer h2 {
+    font-size: 35px;
+    margin: 0;
+}
+
+footer article {
+    line-height: 2;
+    text-align: right;
+}
+
+/* hero styling */
+.hero {
+    background-image: url(./images/hero-image.jpg);
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-position: 80%;
+    align-items: flex-start;
+}
+
+.subtitle {
+    width: 20%;
+    color: #2f3542;
+    background-color: #82ccdd;
+    font-size: 20px;
+    line-height: 1.5;
+}
+
+.subtitle h3 {
+    display: flex;
+    padding: 15px;
+    width: 40%;
+}
+
+/* about me styling */
+.about-me h2 {
+    font-size: 35px;
+    color: #2f3542;
+}
