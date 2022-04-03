@@ -17,6 +17,10 @@ body {
 }
 
 
+section {
+    padding: 60px 0;
+}
+
 /* Header styling */
 header {
     display: flex;
@@ -64,7 +68,7 @@ header nav ul {
 
 header nav ul li a {
     width: 60px;
-    padding: 10px;
+    padding: 10px 18px;
     margin-left: 5px;
     margin-right: 15px;
     font-weight: lighter;
@@ -88,9 +92,6 @@ nav ul li a:hover::after {
 }
 /* end header styling */
 
-section {
-    padding: 60px;
-}
 
 /* footer styling */
 footer {
@@ -98,13 +99,19 @@ footer {
     justify-content: space-between;
     flex-wrap: wrap;
     font-size: 25px;
+    padding: 0px;
+    margin-top: 50px  ;
 }
 
-
-footer article {
-    line-height: 2;
-    text-align: right;
+footer h3 {
+    margin: 0 0 50px 100px;
 }
+
+footer p {
+    margin: 0 50px 50px 0;
+}
+/* END footer styling */
+
 
 /* hero styling */
 .hero {
@@ -119,6 +126,11 @@ footer article {
 }
 
 .hero h3 {
+    position: absolute;
+    z-index: 999;
+    left: 75%;
+    right: 0;
+    top: 50%;
     width: 20%;
     color: #2f3542;
     background-color: var(--main-accent);
@@ -132,41 +144,226 @@ footer article {
 
 
 /* about me styling */
+.about-me {
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+}
 .about-me h2 {
     font-size: 60pt;
     color: #2f3542;
+    margin-right: 20px;
+    border-right: 2px solid var(--background-color);
+    padding: 40px;
 }
+
+.about-me p {
+    display: inline;
+    margin: 75px 16px 16px 30px;
+    font-size: 18pt;
+    height: 200px;
+}
+/* END about-me styling */
 
 section h2 {
     font-size: 60pt;
     float: left;
+    /* border-right: 2px solid var(--background-color); */
+    color: #2f3542;
+}
+
+/* Projects styling */
+.projects h2 {
+    font-size: 60pt;
+    color: #2f3542;
+    margin-right: 40px;
     border-right: 2px solid var(--background-color);
-    color: #2f3542;
+    padding: 20px 20px 800px 20px; 
 }
 
-.project1 {
-    position: relative;
+.project1 a:visited {
+    text-decoration: none;
+    color: #33d9b2;
 }
 
-.text-box {
-    position: absolute;
-    bottom: 20px;
-    right: 20px;
-    background-color: var(--background-color);
-    color: #2f3542;
-    padding-left: 20px;
-    padding-right: 20px;
-    margin-left: 35px;
-}
-
-.sub-projects {
-    display: flex;
-    flex-wrap: wrap;
+.sub-projects a:visited {
+    text-decoration: none;
+    color: #33d9b2;
 }
 
 .sub-projects article img {
     height: 300px;
     width: 500px;
-    padding: 30px;
-    margin: 10px;
+    margin: 40px;
 }
+
+.projects img {
+    border: 20px solid rgba(0, 0, 0, 1);
+    opacity: 0.7;
+}
+
+.projects img:hover {
+    opacity: 1;
+    transition: 0.3s;
+    border-radius: 20px;
+}
+
+/* main project styling */
+.project1 {
+    position: relative;
+    display: inline-block;
+}
+
+
+.project1 .text-box1 {
+    position: absolute;
+    z-index: 999;
+    margin: 0 auto;
+    left: 0;
+    right: 75%;
+    text-align: center;
+    top: 80%;
+    background-color: rgba(0, 0, 0, 0.7);
+    color: #33d9b2;
+    width: 20%;
+    border-radius: 35px;
+}
+
+
+
+/* sub projects styling */
+.sub-projects {
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin: 0 25px 0 200px;
+}
+
+/* project TWO styling for image border and text box position */
+.project2 .text-box2 {
+        position:absolute;
+        z-index: 999;
+        margin: 0 auto;
+        left: 0;
+        right: 70%;
+        text-align: center;
+        top: 28%;
+        background-color: rgba(0, 0, 0, 0.7);
+        color: #33d9b2;
+        width: 10%;
+        border-radius: 35px;
+    }
+/* 
+
+    /* project THREE styling for image border and text box position */
+.project3 .text-box3 {
+    position:absolute;
+    z-index: 999;
+    margin: 0 auto;
+    left: 27%;
+    right: 0;
+    text-align: center;
+    top: 26%;
+    background-color: rgba(0, 0, 0, 0.7);
+    color: #33d9b2;
+    width: 10%;
+    border-radius: 35px;
+}
+
+
+    /* project FOUR styling for image border and text box position */
+    .project4 .text-box4 {
+        position:absolute;
+        z-index: 999;
+        margin: 0 auto;
+        left: 0;
+        right: 70%;
+        text-align: center;
+        top: 78%;
+        background-color: rgba(0, 0, 0, 0.7);
+        color: #33d9b2;
+        width: 10%;
+        border-radius: 35px;
+    }
+/* 
+
+      /* project FIVE styling for image border and text box position */
+.project5 .text-box5 {
+    position:absolute;
+    z-index: 999;
+    margin: 0 auto;
+    left: 27%;
+    right: 0;
+    text-align: center;
+    top: 78%;
+    background-color: rgba(0, 0, 0, 0.7);
+    color: #33d9b2;
+    width: 10%;
+    border-radius: 35px;
+}
+
+/* END projects styling */
+
+
+
+/* contact-me styling */
+.contact-me {
+    display: flex;
+    /* padding-top: 50px 0 50px 0; */
+}
+
+.contact-me h2 {
+    font-size: 60pt;
+    color: #2f3542;
+    margin-right: 20px;
+    border-right: 2px solid var(--background-color);
+    padding: 40px 50px 40px 15px;
+}
+
+.contact-me ul {
+    width: 60%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    list-style: none;
+    padding: 50px;
+}
+
+.contact-me ul li a {
+    text-decoration: none;
+    font-size: 18pt;
+    background-color: #2f3542;
+    color: aliceblue;
+    padding: 10px 12px;
+    border-radius: 20px;
+}
+
+.contact-me ul li a:hover {
+    text-decoration: none;
+    font-size: 18pt;
+    background-color: #33d9b2;
+    color: #2f3542;
+    padding: 10px 12px;
+    border-radius: 20px;
+}
+
+#contact-me p a {
+    text-decoration: none;
+    background-color: #2f3542;
+    color: aliceblue;
+    border-radius: 20px;
+    padding: 10px 12px;
+}
+
+#contact-me p a:hover {
+    text-decoration: none;
+    background-color: #33d9b2;
+    color: #2f3542;
+    border-radius: 20px;
+    padding: 10px 12px;
+}
+
+
+/* END contact-me styling */
