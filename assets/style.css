@@ -4,11 +4,11 @@
 }
 
 /* Global styling for site */
-/* * {
+* {
     margin: 0;
-    padding: 0;
+    /* padding: 0; */
     box-sizing: border-box;
-} */
+}
 
 body {
     font-family:Arial, Helvetica, sans-serif;
@@ -45,9 +45,12 @@ header h1 a {
     color: #2f3542;
     background-color: var(--main-accent);
     position: absolute;
-    padding: 10px 10px 5px 100px;
+    padding: 15px 35px;
     margin-left: 0;
     border-radius: 30px;
+    top: 0;
+    left: 0;
+    border-top-left-radius: 0%;
 }
 
 header a {
@@ -120,7 +123,7 @@ footer p {
     justify-content: center;
     flex-wrap: wrap;
     background-size:auto;
-    background-position: 60%;
+    background-position: 70%;
     align-items: flex-start;
     height: 450px;
 }
@@ -130,7 +133,7 @@ footer p {
     z-index: 999;
     left: 75%;
     right: 0;
-    top: 50%;
+    top: 35%;
     width: 20%;
     color: #2f3542;
     background-color: var(--main-accent);
@@ -162,6 +165,11 @@ footer p {
     margin: 75px 16px 16px 30px;
     font-size: 18pt;
     height: 200px;
+}
+
+.about-me img {
+    width: 60%;
+    border-radius: 100%;
 }
 /* END about-me styling */
 
@@ -197,6 +205,10 @@ section h2 {
     margin: 40px;
 }
 
+.projects article a {
+    text-decoration: none;
+}
+
 .projects img {
     border: 20px solid rgba(0, 0, 0, 1);
     opacity: 0.7;
@@ -227,6 +239,7 @@ section h2 {
     color: #33d9b2;
     width: 20%;
     border-radius: 35px;
+    padding: 10px 0;
 }
 
 
@@ -246,13 +259,14 @@ section h2 {
         z-index: 999;
         margin: 0 auto;
         left: 0;
-        right: 70%;
+        right: 65%;
         text-align: center;
-        top: 28%;
+        top: 30%;
         background-color: rgba(0, 0, 0, 0.7);
         color: #33d9b2;
         width: 10%;
         border-radius: 35px;
+        padding: 10px 0;
     }
 /* 
 
@@ -264,11 +278,12 @@ section h2 {
     left: 27%;
     right: 0;
     text-align: center;
-    top: 26%;
+    top: 30%;
     background-color: rgba(0, 0, 0, 0.7);
     color: #33d9b2;
     width: 10%;
     border-radius: 35px;
+    padding: 10px 0;
 }
 
 
@@ -278,13 +293,14 @@ section h2 {
         z-index: 999;
         margin: 0 auto;
         left: 0;
-        right: 70%;
+        right: 65%;
         text-align: center;
-        top: 78%;
+        top: 80%;
         background-color: rgba(0, 0, 0, 0.7);
         color: #33d9b2;
-        width: 10%;
+        width: 12%;
         border-radius: 35px;
+        padding: 10px 0;
     }
 /* 
 
@@ -296,11 +312,12 @@ section h2 {
     left: 27%;
     right: 0;
     text-align: center;
-    top: 78%;
+    top: 82%;
     background-color: rgba(0, 0, 0, 0.7);
     color: #33d9b2;
     width: 10%;
     border-radius: 35px;
+    padding: 10px 0;
 }
 
 /* END projects styling */
@@ -318,11 +335,11 @@ section h2 {
     color: #2f3542;
     margin-right: 20px;
     border-right: 2px solid var(--background-color);
-    padding: 40px 50px 40px 15px;
+    padding: 40px 50px 40px 45px;
 }
 
 .contact-me ul {
-    width: 60%;
+    width: 85%;
     display: flex;
     justify-content: space-between;
     align-items: center;
