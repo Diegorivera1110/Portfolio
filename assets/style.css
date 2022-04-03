@@ -384,3 +384,86 @@ section h2 {
 
 
 /* END contact-me styling */
+
+/* MEDIA queries for smaller screen adjustments */
+@media screen and (max-width: 980px) {
+    header {
+        padding-bottom: 0;
+        justify-content: center;
+        position: relative;
+    }
+
+    header h1  a {
+        font-size: 20pt;
+        text-align: center;
+    }
+
+    header nav ul {
+        width: 100%;
+        justify-content: space-evenly;
+    }
+
+    section {
+        padding: none;
+    }
+
+    .about-me h2 {
+        font-size: 26pt;
+        padding: none;
+    }
+
+    .projects h2 {
+        font-size: 26pt;
+        padding: none;
+        border: none;
+    }
+
+    .hero h3 {
+        font-size: 30pt;
+    }
+
+    .projects img {
+        opacity: 1;
+    }
+
+    .project2 .text-box2 {
+        width: 20%;
+        top: 15%;
+        right: 10%;
+    }
+
+    .project3 .text-box3 {
+        width: 20%;
+        top: 40%;
+        right: 38%;
+    }
+
+    .project4 .text-box4 {
+        width: 20%;
+        top: 65%;
+        right: 20%;
+    }
+
+    .project5 .text-box5 {
+        width: 20%;
+        top: 90%;
+        right: 38%;
+    }
+
+    footer {
+        width: 80%;
+    }
+}
+
+@media screen and (max-width: 760px) {
+    
+    header {
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+    }
+}
+
+@media screen and (max-width: 575px) {
+    
+}
