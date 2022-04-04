@@ -12,3 +12,11 @@ From top to bottom you have my name, the site navigation, the hero image along w
 
 ## Features
 
+* Personalized color scheme
+* Reactive navigation links that reveal an underline
+* Reactive project pictures that change transparency
+* Reactive contact links that change colors
+
+## Screenshot
+
+![Portfolio Screenshot](./assets/images/portfolio%20screenshot%20.png) 
