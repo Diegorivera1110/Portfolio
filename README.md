@@ -23,4 +23,3 @@ From top to bottom you have my name, the site navigation, the hero image along w
 
 ## Screenshot
 
-![Portfolio Screenshot]() 
