@@ -61,10 +61,11 @@
     </section>
 
       <!-- my projects section containing two divs separating the main project from the four sub projects -->
-    <section id="projects" class="projects">
-      <h2>Projects</h2>
+    <section id="projects" class="projects container">
+      <div class="row">
+      <h2 class="col-sm-2">Projects</h2>
 
-      <article class="project1 card" style="width: 45rem;">
+      <article class="project1 card col-sm-10" style="width: 45rem;">
         <a href="https://blank.page/" target="_blank"><img src="./assets/images/waves.jpg" class="img-fluid card-img-top" alt="beach view"></a>
         <div class="text-box1 card-body">
           <a href="https://blank.page/" target="_blank">
@@ -72,10 +73,11 @@
         <p>MERN Stack</p>
         </div>
       </article>
+    </div>
 
       <!-- the four projects that will be displayed below my main project -->
-      <div class="sub-projects">
-      <article class="project2" style="width: 45rem;">
+      <div class="sub-projects card col-sm-10">
+      <article class="project2 col-8" style="width: 45rem;">
         <a href=" https://diegorivera1110.github.io/refactored-horiseon-accessibility/" target="_blank">
         <img src="./assets/images/horiseon.PNG" class="img-fluid" alt="Horiseon Team Working"></a>
         <div class="text-box2">
@@ -85,7 +87,7 @@
       </div>
       </article>
 
-      <article class="project3" style="width: 45rem;">
+      <article class="project3 card col-4" style="width: 45rem;">
         <a href="https://diegorivera1110.github.io/password-generator/" target="_blank"><img src="./assets/images/password-generator.PNG" class="img-fluid" alt="Random Password Generator"></a>
         <div class="text-box3">
           <a href="https://diegorivera1110.github.io/password-generator/" target="_blank">
@@ -94,7 +96,7 @@
       </div>
       </article>
 
-      <article class="project4" style="width: 45rem;">
+      <article class="project4 card col-sm-10" style="width: 45rem;">
         <a href="https://diegorivera1110.github.io/robot-gladiators/" target="_blank"><img src="./assets/images/robots.jpg" class="img-fluid" alt="fighting robots"></a>
         <div class="text-box4">
           <a href="https://diegorivera1110.github.io/robot-gladiators/" target="_blank">
@@ -103,7 +105,7 @@
       </div>
       </article>
 
-      <article class="project5" style="width: 45rem;">
+      <article class="project5 card col-sm-10" style="width: 45rem;">
         <a href="https://diegorivera1110.github.io/run-buddy/" target="_blank"><img src="./assets/images/hero-bg.jpg" class="img-fluid" alt="Runner tying their shoes"></a>
           <div class="text-box5">
             <a href="https://diegorivera1110.github.io/run-buddy/" target="_blank">
@@ -155,3 +157,6 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" />
   </body>
 </html>
+
+
+
