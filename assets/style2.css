@@ -1,7 +1,23 @@
-nav li {
-    padding: 12px;
-}
-
-.projects article {
-    padding: 20px;
-}
+header h1 a {
+    color: #2f3542;
+    background-color: #33d9b2;
+    padding: 8px;
+  }
+  
+  nav li {
+      padding: 12px;
+  }
+  
+  .projects article {
+      padding: 20px;
+  }
+  
+  #contact-me ul li {
+    list-style: none;
+  }
+  
+  /* .contact-me ul li a {
+    display: flex;
+    justify-content: space-around;
+    height: auto;
+  } */
