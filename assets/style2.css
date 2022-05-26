@@ -1,23 +1,57 @@
-header h1 a {
-    color: #2f3542;
-    background-color: #33d9b2;
-    padding: 8px;
-  }
-  
-  nav li {
-      padding: 12px;
-  }
-  
-  .projects article {
-      padding: 20px;
-  }
-  
-  #contact-me ul li {
-    list-style: none;
-  }
-  
-  /* .contact-me ul li a {
-    display: flex;
-    justify-content: space-around;
-    height: auto;
-  } */
+header h1 {
+  color: #2f3542;
+  background-color: #33d9b2;
+  padding: 10px;
+ 
+}
+
+nav a { 
+  margin: 10px;
+}
+
+.about-me {
+  /* margin-left: 50px; */
+  margin: 50px 50px;
+  font-size: 20px;
+}
+
+
+.projects article {
+    padding: 20px;
+}
+
+/* footer stlying for contact info */
+.contact-me {
+    margin-top: 50px;
+}
+
+.contact-me h1 {
+  background-color: #2f3542;
+  color: #33d9b2;
+  padding: 5px;
+  text-align: center;
+}
+
+#contact-me ul li {
+  margin-top: 15px;
+  list-style: none;
+}
+
+.contact-me ul li a {
+  text-decoration: none;
+  color: #2f3542;
+}
+
+.contact-me ul li a:hover {
+  color: #33d9b2;
+  background-color: #2f3542;
+  width: 100%;
+  padding: 10px;
+/*   border-radius: 10%; */
+}
+
+/* .contact-me ul li a {
+  display: flex;
+  justify-content: space-around;
+  height: auto;
+} */
